@@ -1,0 +1,55 @@
+name: univarsitywebsite1
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.1.6
+  cupertino_icons: ^1.0.2
+  animated_splash_screen: ^1.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.13.1"
+  build_runner: ^2.4.0
+  build_web_compilers: ^4.0.4
+  flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.jpg" # Use icon.jpg instead of icon.png
+  min_sdk_android: 21
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/logo_foreground.png"
+
+flutter:
+  uses-material-design: true
+
+assets:
+  - assets/cse.jpg
+  - assets/ce.jpg
+  - assets/te.jpg
+  - assets/eee.jpg
+  - assets/ar.jpg
+  - assets/name.jpg
+  - assets/fdt.jpg
+  - assets/amT.jpg
+  - assets/me.jpg
+  - assets/bn.jpg
+  - assets/law.jpg
+  - assets/bba.jpg
+  - assets/pha.jpg
+  - assets/eco.jpg
+  - assets/en.jpg
+  - assets/jr.jpg
+  - assets/ir.jpg
+  - assets/bio.jpg
+  - assets/app.jpg
+  - assets/med.jpg
